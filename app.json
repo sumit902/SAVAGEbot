@@ -1,6 +1,6 @@
 {
-  "name": "Sensible Userbot",
-  "description": "Userbot created by a @CeoWhiteHatCracks and join https://t.me/sensible_userbot for any problems or support",
+  "name": "SenseiMAX Kingbott",
+  "description": "Userbot created by a @Sensei_nex and join bhttps://t.me/SenseiMAXprojectsle_userbot for any problems or support",
   "logo": "https://telegra.ph/file/2f76a5ea2a9ec22ab4284.jpg",
     "keywords": [
     "telegram",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/spandey112/SensibleUserbot",
+  "repository": "https://github.com/SenseiMAX/SenseiMAX-Kingbot",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -28,7 +28,7 @@
       "required": false
     },
     "ALIVE_NAME": {
-      "description": "Fill your Full name or Username like @Ceowhitehatcracks",
+      "description": "Fill your Full name or Username like @Sensei_nex",
       "value": ""
     },
     "APP_ID": {
@@ -129,7 +129,7 @@
     },
 	
 	"Agreement": {
-      "description": "Do You Owe Ceo White hat Cracks And Mr White Who Helped To Create this Awesome bot Turn This True",
+      "description": "dalle jab v tuh iss bot ko use kre toh sensei aur max papa ko yaad rkhna",
       "value": "true",
       "required": true
     }
