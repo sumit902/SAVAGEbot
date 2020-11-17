@@ -1,7 +1,7 @@
 # Sensible Userbot
 
 <p align="center">
-<img src="SENSIBLE.jpg" alt="Sensible USERBOT">
+<img src="https://media.giphy.com/media/3tHQUCykC63f6i099R/giphy.gif" alt="Sensible USERBOT">
 
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
