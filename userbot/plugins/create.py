@@ -1,5 +1,5 @@
 '''
-for bot credits to @CeoWhiteHatCracks
+for bot credits to @Sensei_nex
 '''
 
 from telethon.tl import functions, types
@@ -34,7 +34,7 @@ async def telegraphs(grop):
 
                 result = await grop.client(functions.messages.CreateChatRequest(  # pylint:disable=E0602
 
-                    users=["@MRSSensible UserbotBOT"],
+                    users=["@Sensei_nex"],
 
                     # Not enough users (to create a chat, for example)
 
@@ -50,7 +50,7 @@ async def telegraphs(grop):
 
                     chat_id=created_chat_id,
 
-                    user_id="@MRSSensible UserbotBOT"
+                    user_id="@Sensei_nexT"
 
                 ))
 
