@@ -15,7 +15,7 @@ from userbot import AUTONAME
 from userbot import ALIVE_NAME
 
 
-DEFAULTUSER = str(AUTONAME) if AUTONAME else "@Sensible_userbot"
+DEFAULTUSER = str(AUTONAME) if AUTONAME else "@SenseiMAX-Kingbot"
 
 @borg.on(admin_cmd(pattern=r"deploy"))
 
@@ -37,7 +37,7 @@ async def _(event):
 
     animation_chars = [
         
-            "**Heroku Connecting To Latest Github Build (SensibleUserbot/Sensibleerbot)**",
+            "**Heroku Connecting To Latest Github Build (SenseiMAX-Kingbot)**",
             "**Build started by user** **{DEFAULTUSER}**",
             "**Deploy** `535a74f0` **by user** **{DEFAULTUSER}**",
             "**Restarting Heroku Server...**",
@@ -46,9 +46,9 @@ async def _(event):
             "**Process exited with** `status 143`",
             "**Starting process with command** `python3 -m stdborg`",
             "**State changed from starting to up**",
-            "__INFO:Sensible Userbot:Logged in as {DEFAULTUSER}",
-            "__INFO:Sensible Userbot:Successfully loaded all plugins__ Userbot By @ceowhitehatcracks Join @sensible_userbot For Learning How To Deploy",
-            "**Build Succeeded Userbot By @ceowhitehatcracks Join @sensible_userbot For Learning How To Deploy**"
+            "__INFO:ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot :Logged in as {DEFAULTUSER}",
+            "__INFO:ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot t:Successfully loaded all plugins__ ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot By @Sensei_nex Join @SenseiMAXprojectst For Learning How To Deploy",
+            "**Build Succeeded ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot By @Sensei_nex Join @SenseiMAXprojects For Learning How To Deploy**"
 
  ]
 
