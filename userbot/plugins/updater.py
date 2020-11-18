@@ -17,10 +17,10 @@ IS_SELECTED_DIFFERENT_BRANCH = (
     "in this case, Updater is unable to identify the branch to be updated."
     "please check out to an official branch, and re-start the updater."
 )
-OFFICIAL_UPSTREAM_REPO = "https://github.com/spandey112/SensibleUserbot/"
-BOT_IS_UP_TO_DATE = "Sensible userbot is up-to-date!."
+OFFICIAL_UPSTREAM_REPO = "https://github.com/SenseiMAX/SenseiMAX-Kingbot/"
+BOT_IS_UP_TO_DATE = "ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot is up-to-date!."
 NEW_BOT_UP_DATE_FOUND = (
-    "**Sensible userbot update Found For** {branch_name}\n"
+    "**ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot update Found For** {branch_name}\n"
     "\n\n{changelog}\n"
     "Pulling Updates !!"
 )
@@ -142,7 +142,7 @@ def generate_change_log(git_repo, diff_marker):
 
 async def deploy_start(bot, message, refspec, remote):
     await message.edit(RESTARTING_APP)
-    await message.edit(" {DEFAULTUSER} : Updating Sensible Userbot \n ✔ Got Updates From Official RepoSitory \n ✔ Getting Code From Master Branch \n ✔ Restarting Dynos \n ✔ Under 10 mins sensible userbot will be up with latest updates \n ✔Thanks For Using Sensible userbot ")
+    await message.edit(" {DEFAULTUSER} : Updating ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot \n ✔ Got Updates From Official RepoSitory \n ✔ Getting Code From Master Branch \n ✔ Restarting Dynos \n ✔ Under 10 mins ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot will be up with latest updates \n ✔Thanks For Using ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot ")
     await remote.push(refspec=refspec)
     await bot.disconnect()
     os.execl(sys.executable, sys.executable, *sys.argv)
