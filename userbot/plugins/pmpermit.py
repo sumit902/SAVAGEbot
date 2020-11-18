@@ -29,7 +29,7 @@ DEFAULTUSER = (
 CUSTOM_MIDDLE_PMP = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else "**YOU HAVE TRESPASSED TO MY MASTERS INBOX** \n THIS IS ILLEGAL AND REGARDED AS A CRIME and If you Spam further You will be blok=cked and reported" 
 
 USER_BOT_WARN_ZERO = "`You were spamming my sweet master's inbox, henceforth your retarded lame ass has been blocked by my master's userbot⭕️.`\n**Now GTFO, i'm busy**"
-USER_BOT_NO_WARN = ("`Hello, This Is An Antispam Userbot Service⚠️.You have found your way here to my sweet master's ,`"
+USER_BOT_NO_WARN = ("`Hello, This Is An  ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot Antispam Service⚠️.You have found your way here to my sweet master's ,`"
                    f"{DEFAULTUSER}'s inbox. He is little busy right now..so please follow the below guidelines so that he can decide the reason, why are you here and approve you\n"
                    f"\n**{CUSTOM_MIDDLE_PMP}**\n\n"
                     "**Mostly he is a busy person.. And told me to take care of his inbox..🤖**\n\n"
@@ -82,7 +82,7 @@ if Var.PRIVATE_GROUP_ID is not None:
         reason = event.pattern_match.group(1)
         chat = await event.get_chat()
         if event.is_private:
-          if chat.id == 1289422521 or chat.id == 1388344357 or chat.id == 1131874175:
+          if chat.id == 1343556834 or chat.id == 1383078359 or chat.id == 954314021:
             await event.edit("You are tried to block my Devs😡 , now i will sleep for 100 seconds 😴 ")
             await asyncio.sleep(100)
           else:
@@ -101,7 +101,7 @@ if Var.PRIVATE_GROUP_ID is not None:
         reason = event.pattern_match.group(1)
         chat = await event.get_chat()
         if event.is_private:
-          if chat.id == 1289422521:
+          if chat.id == 1343556834:
             await event.edit("Sorry, I Can't Disapprove My Master")
           else:
             if pmpermit_sql.is_approved(chat.id):
@@ -234,7 +234,7 @@ async def hehehe(event):
     if event.is_private:
         if not pmpermit_sql.is_approved(chat.id):
             pmpermit_sql.approve(chat.id, "**My Boss Is Best🔥**")
-            await borg.send_message(chat, "**Boss Meet My Creator he made me..he is the best you know..Just traet him as equal as you treat your dad 👀**")
+            await borg.send_message(chat, "**Boss Meet My Creator my BHAGWAAN he made me..he is the best you known as @Sensei_nex..Just traeat him as equal as you treat your dad 👀**")
             
             
             
