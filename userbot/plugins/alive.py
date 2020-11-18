@@ -19,8 +19,8 @@ ALIVE_caption += "**Current Sat** : `ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot 1.0`\n\
 ALIVE_caption += f"**My Boss** : {DEFAULTUSER} \n\n"
 ALIVE_caption += "**Heroku Database** : `AWS - Working Properly`\n\n"
 ALIVE_caption += "**Bot Made By @Sensei_nex & @hacker_prem** \n\n"
-ALIVE_caption += "Copyright By [Sensei](https://t.me/sensei_nex)\n\n"
-ALIVE_caption += "[Deploy ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot](https://github.com/SenseiMAX/SenseiMAX-Kingbot)"
+ALIVE_caption += "👀Copyright By [Sensei](https://t.me/sensei_nex)\n\n"
+ALIVE_caption += "💔[Deploy ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot](https://github.com/SenseiMAX/SenseiMAX-Kingbot)💔"
 #@command(outgoing=True, pattern="^.alive$")
 @borg.on(admin_cmd(pattern=r"alive"))
 async def sensible(alive):
