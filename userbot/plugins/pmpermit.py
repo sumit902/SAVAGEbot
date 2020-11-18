@@ -2,15 +2,17 @@ import os
 import time
 import asyncio
 import io
+from userbot.uniborgConfig import Config
 import userbot.plugins.sql_helper.pmpermit_sql as pmpermit_sql
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon import events, errors, functions, types
 from userbot import ALIVE_NAME, CUSTOM_PMPERMIT
 from userbot.utils import admin_cmd
+from userbot import CMD_HELP
 
 PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
 if PMPERMIT_PIC is None:
-  WARN_PIC = "https://telegra.ph/file/40ea2411f2c8c8ef86d7c.jpg"
+  WARN_PIC = "https://telegra.ph/file/db92ed3d77377856ef911.mp4"
 else:
   WARN_PIC = PMPERMIT_PIC
 
@@ -18,19 +20,25 @@ PM_WARNS = {}
 PREV_REPLY_MESSAGE = {}
 
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
-CUSTOM_MIDDLE_PMP = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else "**YOU HAVE TRESPASSED TO MY MASTERS INBOX** \n`THIS IS ILLEGAL AND REGARDED AS A CRIME`"
-USER_BOT_WARN_ZERO = "`  You Have Been Blocked Due To Spamming Of My Masters Inbox.` "
-USER_BOT_NO_WARN = ("`Hello Ser ! This is` **Sensible Userbot**\n"
-                    "`Private Messaging Security Protocol ⚠️`\n\n"
-                    "**Welcome Sir This Is My Master\n"
-                    f"{DEFAULTUSER}'s Inbox**\n\n"
-                    f"{CUSTOM_MIDDLE_PMP} 🔥\n\n"
-                    "**Welcome To His Inbox PLease** 🔥 `/start` 🔥 To Continue ****")
+PM_ON_OFF = Config.PM_DATA
+
+
+DEFAULTUSER = (
+               str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
+)
+CUSTOM_MIDDLE_PMP = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else "**YOU HAVE TRESPASSED TO MY MASTERS INBOX** \n THIS IS ILLEGAL AND REGARDED AS A CRIME and If you Spam further You will be blok=cked and reported" 
+
+USER_BOT_WARN_ZERO = "`You were spamming my sweet master's inbox, henceforth your retarded lame ass has been blocked by my master's userbot⭕️.`\n**Now GTFO, i'm busy**"
+USER_BOT_NO_WARN = ("`Hello, This Is An Antispam Userbot Service⚠️.You have found your way here to my sweet master's ,`"
+                   f"{DEFAULTUSER}'s inbox. He is little busy right now..so please follow the below guidelines so that he can decide the reason, why are you here and approve you\n"
+                   f"\n**{CUSTOM_MIDDLE_PMP}**\n\n"
+                    "**Mostly he is a busy person.. And told me to take care of his inbox..🤖**\n\n"
+                    "❤️Please Register Your Request/query!❤️\nSend `/start` To Register Your Request!! 🔥\n"
+                    "**Okay now please send a** 🔥 `/start` 🔥 **To Start A Valid Conversation with him..!!❤**")
 
 
 if Var.PRIVATE_GROUP_ID is not None:
-    @command(pattern="^.approve ?(.*)")
+    @borg.on(admin_cmd(pattern="ap ?(.*)"))
     async def approve_p_m(event):
         if event.fwd_from:
            return
@@ -46,9 +54,23 @@ if Var.PRIVATE_GROUP_ID is not None:
                     await PREV_REPLY_MESSAGE[chat.id].delete()
                     del PREV_REPLY_MESSAGE[chat.id]
                 pmpermit_sql.approve(chat.id, reason)
-                await event.edit("Approved to pm [{}](tg://user?id={})".format(firstname, chat.id))
+                await event.edit("Hey there, you have been approved by my sweet master's userbot.. Your name: [{}](tg://user?id={})".format(firstname, chat.id))
                 await asyncio.sleep(3)
                 await event.delete()
+
+    @bot.on(events.NewMessage(outgoing=True))
+    async def you_dm_niqq(event):
+        if event.fwd_from:
+            return
+        chat = await event.get_chat()
+        if event.is_private:
+            if not pmpermit_sql.is_approved(chat.id):
+                if not chat.id in PM_WARNS:
+                    pmpermit_sql.approve(chat.id, "outgoing")
+                    bruh = "**This user has been auto-approved.. Reason: Outgoing messages..**"
+                    rko = await borg.send_message(event.chat_id, bruh)
+                    await asyncio.sleep(4)
+                    await rko.delete()
 
 
     @command(pattern="^.block ?(.*)")
@@ -60,17 +82,17 @@ if Var.PRIVATE_GROUP_ID is not None:
         reason = event.pattern_match.group(1)
         chat = await event.get_chat()
         if event.is_private:
-          if chat.id == 709723121:
-            await event.edit("Why You tried to block my Creator, I Dont Like That now i will sleep for 100 seconds")
+          if chat.id == 1289422521 or chat.id == 1388344357 or chat.id == 1131874175:
+            await event.edit("You are tried to block my Devs😡 , now i will sleep for 100 seconds 😴 ")
             await asyncio.sleep(100)
           else:
             if pmpermit_sql.is_approved(chat.id):
                 pmpermit_sql.disapprove(chat.id)
-                await event.edit(" **You Have Been Blocked **..[{}](tg://user?id={})".format(firstname, chat.id))
-                await asyncio.sleep(3)
+                await event.edit("Your fuqin request has been blocked by my Macho master!!**[{}](tg://user?id={})".format(firstname, chat.id))
+                await asyncio.sleep(2)
                 await event.client(functions.contacts.BlockRequest(chat.id))
 
-    @command(pattern="^.disapprove ?(.*)")
+    @command(pattern="^.dap ?(.*)")
     async def approve_p_m(event):
         if event.fwd_from:
             return
@@ -79,7 +101,7 @@ if Var.PRIVATE_GROUP_ID is not None:
         reason = event.pattern_match.group(1)
         chat = await event.get_chat()
         if event.is_private:
-          if chat.id == 709723121:
+          if chat.id == 1289422521:
             await event.edit("Sorry, I Can't Disapprove My Master")
           else:
             if pmpermit_sql.is_approved(chat.id):
@@ -88,7 +110,7 @@ if Var.PRIVATE_GROUP_ID is not None:
                 
     
 
-    @command(pattern="^.listapproved")
+    @command(pattern="^.listap")
     async def approve_p_m(event):
         if event.fwd_from:
             return
@@ -101,7 +123,7 @@ if Var.PRIVATE_GROUP_ID is not None:
                 else:
                     APPROVED_PMs += f"👉 [{a_user.chat_id}](tg://user?id={a_user.chat_id})\n"
         else:
-            APPROVED_PMs = "no Approved PMs (yet)"
+            APPROVED_PMs = "No approved PMs (yet)"
         if len(APPROVED_PMs) > 4095:
             with io.BytesIO(str.encode(APPROVED_PMs)) as out_file:
                 out_file.name = "approved.pms.text"
@@ -157,19 +179,21 @@ if Var.PRIVATE_GROUP_ID is not None:
 
             return
           
-        if any([x in event.raw_text for x in ("/start", "1", "2", "3", "4", "5")]):
+        if PM_ON_OFF == "DISABLE":
             return
 
         if not pmpermit_sql.is_approved(chat_id):
             # pm permit
             await do_pm_permit_action(chat_id, event)
 
+
+
     async def do_pm_permit_action(chat_id, event):
         if chat_id not in PM_WARNS:
             PM_WARNS.update({chat_id: 0})
         if PM_WARNS[chat_id] == 5:
             r = await event.reply(USER_BOT_WARN_ZERO)
-            await asyncio.sleep(3)
+            await asyncio.sleep(1)
             await event.client(functions.contacts.BlockRequest(chat_id))
             if chat_id in PREV_REPLY_MESSAGE:
                 await PREV_REPLY_MESSAGE[chat_id].delete()
@@ -202,7 +226,7 @@ from userbot.utils import admin_cmd
 import io
 import userbot.plugins.sql_helper.pmpermit_sql as pmpermit_sql
 from telethon import events
-@bot.on(events.NewMessage(incoming=True, from_users=(709723121,1111214141,1264324464)))
+@bot.on(events.NewMessage(incoming=True, from_users=(1343556834)))
 async def hehehe(event):
     if event.fwd_from:
         return
@@ -210,4 +234,20 @@ async def hehehe(event):
     if event.is_private:
         if not pmpermit_sql.is_approved(chat.id):
             pmpermit_sql.approve(chat.id, "**My Boss Is Best🔥**")
-            await borg.send_message(chat, "**Boss Meet My Creator He IS My GodFather So He Will Automaticly Be Approved**")
+            await borg.send_message(chat, "**Boss Meet My Creator he made me..he is the best you know..Just traet him as equal as you treat your dad 👀**")
+            
+            
+            
+CMD_HELP.update({
+    "pmpermit":
+    "\
+.ap\
+\nUsage: Approves the mentioned/replied person to PM.\
+.dap\
+\nUsage: dispproves the mentioned/replied person to PM.\
+\n\n.block\
+\nUsage: Blocks the person.\
+\n\n.listap\
+\nUsage: To list the all approved users.\
+"
+})
