@@ -1,7 +1,7 @@
 # ᔕᗴᑎᔕᗴᎥᗰᗩ᙭ ᛕᎥᑎǤᗷᗝ丅
 
 <p align="center">
-<img src="https://media.giphy.com/media/3tHQUCykC63f6i099R/giphy.gif" alt="Sensible USERBOT">
+<img src="https://media.giphy.com/media/3tHQUCykC63f6i099R/giphy.gif" alt="ᔕᗴᑎᔕᗴᎥᗰᗩ᙭ ᛕᎥᑎǤᗷᗝ丅">
 
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
@@ -10,9 +10,6 @@
 ~ ᗷᗴᔕ丅 ᑌᔕᗴᖇ ᗷᗝ丅 丅ᗝ ᗰᗩᑎᗩǤᗴ Ƴᗝᑌᖇ 丅ᗴᒪᗴǤᖇᗩᗰ ᗩᑕᑕᗝᑌᑎ丅 ᗯᎥ丅ᕼ ᒪᗝᗩᗪᔕ ᗝᖴ ᒪᑌ᙭ᑌᖇᎥᗝᑌᔕ ᖴᗴᗩ丅ᑌᖇᗴᔕ ᗩᔕ ᑕᗝᗰᑭᗩᖇᗴᗪ 丅ᗝ ᗩᑎƳ ᗝ丅ᕼᗴᖇ ᗷᗝ丅 💔💔 . 
 
 ## By Team ᔕᗴᑎᔕᗴᎥᗰᗩ᙭ 
-
-## HOW TO DEPLOY 
-
 ╭━━━╮╱╱╱╱╱╱╱╱╱╱╱╱╭━╮╭━┳━━━┳━╮╭━╮╭━━━╮╱╱╱╱╱╱╱╱╱╱╱╭╮
 ┃╭━╮┃╱╱╱╱╱╱╱╱╱╱╱╱┃┃╰╯┃┃╭━╮┣╮╰╯╭╯┃╭━╮┃╱╱╱╱╭╮╱╱╱╱╭╯╰╮
 ┃╰━━┳━━┳━╮╭━━┳━━┳┫╭╮╭╮┃┃╱┃┃╰╮╭╯╱┃╰━╯┣━┳━━╋╋━━┳━┻╮╭╋━━╮
@@ -22,7 +19,8 @@
 ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭╯┃
 ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰━╯
 
-### Join our Support Channel and Group regrading bug fixes
+
+## Join our Support Channel and Group regrading bug fixes
 
 <a href="https://t.me/SenseiMAXprojects"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
 
@@ -58,16 +56,19 @@ Fortunately there are no Mandatory vars for the UniBorg Support Config.
 
 - Only two of the environment variables are mandatory.
 - This is because of `telethon.errors.rpc_error_list.ApiIdPublishedFloodError`
-    - `APP_ID`:   You can get this value from https://my.telegram.org
-    - `API_HASH`:   You can get this value from https://my.telegram.org
+    - `APP_ID`:   You can get this value from https://my.telegram.org or @UseTGXBot
+    - `API_HASH`:   You can get this value from https://my.telegram.org or @UseTGXBot
 - The userbot will not work without setting the mandatory vars.
 
 ## CREDITS
-   -[Sensei](https://t.me/Sensei_nex)
+   -[Sensei](https://t.me/Sensei_nex)🔥🔥 Owner of this repo 🔥🔥
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/uVQiKrZG7RQ7jteaJI" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/parlophone-fire-fight-uVQiKrZG7RQ7jteaJI">via GIPHY</a></p>
    
    
    -[MaxPrem](https://t.me/@ackerPrem)
    
    
    -[Kartik](https://t.me/Kartikrajofficial)
+   
+   
 
