@@ -1,35 +1,37 @@
-# stickery alive by @hellboi_atul
-import asyncio
+#credits to @kraken_the_badass
+#kanged by @sensei_nex for @senseiMAXprojects
+
+mport asyncio
 from telethon import events
+from userbot.utils import admin_cmd, sudo_cmd
+from userbot import ALIVE_NAME, hellversion
 from telethon.tl.types import ChannelParticipantsAdmins
-from platform import uname
-from userbot import ALIVE_NAME
-from userbot.utils import admin_cmd
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
 
+kraken = bot.uid
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
-ALIVE_IMG = "https://tenor.com/9OER.gif"
-ALIVE_caption = "`ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot IS:` **🔥on Fire🔥**\n\n"
-ALIVE_caption += "**SYSTEM STATUS**\n\n"
-ALIVE_caption += "`TELETHON VERSION:` **6.0.9**\n`Python:` **3.7.4**\n\n"
-ALIVE_caption += "`DATABASE STATUS:` **Functional**\n\n"
-ALIVE_caption += "**Current Branch** : `master`\n\n"
-ALIVE_caption += "**ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot  OS** : `1.0`\n\n"
-ALIVE_caption += "**Current Sat** : `ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot 1.0`\n\n"
-ALIVE_caption += f"**My Boss** : {DEFAULTUSER} \n\n"
-ALIVE_caption += "**Heroku Database** : `AWS - Working Properly`\n\n"
-ALIVE_caption += "**Bot Made By @Sensei_nex / @hackerprem** \n\n"
-ALIVE_caption += "👀Copyright By [Sensei](https://t.me/sensei_nex)\n\n"
-ALIVE_caption += "💔[Deploy ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot](https://github.com/SenseiMAX/SenseiMAX-Kingbot)💔"
+PM_IMG = "https://media.giphy.com/media/Lopx9eUi34rbq/giphy.gif"
+pm_caption = "__**🔥🔥ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot  IS ONLINE🔥🔥**__\n\n"
+
+pm_caption += f"               __↼🄼🄰🅂🅃🄴🅁⇀__\n**『[{DEFAULTUSER}](tg://user?id={Sensei})』**\n\n"
+
+pm_caption += "🛡️TELETHON🛡️ : 1.15.0 \n"
+
+pm_caption += f"ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot      : `{ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot}`\n"
+
+pm_caption += "⚠️CHANNEL⚠️                : [ᴊᴏɪɴ](https://t.me/HellBot_Official)\n"
+
+pm_caption += "🔱GROUP🔱.                 : [ᴊᴏɪɴ](https://t.me/HellBot_Official_Chat)\n"
+
+pm_caption += "🔥CREATOR🔥    : [Nub Here](https://t.me/sensei_nex)\n\n"
+
+pm_caption += "         [✨REPO✨](https://github.com/SenseiMAX/SenseiMAX-Kingbot) 🔹 [📜License📜](https://github.com/SenseiMAX/SenseiMAX-Kingbot/blob/master/LICENSE)"
 #@command(outgoing=True, pattern="^.alive$")
-@borg.on(admin_cmd(pattern=r"alive"))
-async def sensible(alive):
-    """ For .alive command, check if the bot is running.  """
-    await alive.delete()
-    await borg.send_file(alive.chat_id, ALIVE_IMG,caption=ALIVE_caption)
-
-@borg.on(admin_cmd(pattern=r"Alive", allow_sudo=True))
-async def sensible(alive):
+@bot.on(admin_cmd(outgoing=True, pattern="alive$"))
+@bot.on(sudo_cmd(pattern="alive$", allow_sudo=True))
+async def amireallyalive(alive):
     chat = await alive.get_chat()
+    await alive.delete()
     """ For .alive command, check if the bot is running.  """
     await borg.send_file(alive.chat_id, PM_IMG,caption=pm_caption)
+    await alive.delete() 
