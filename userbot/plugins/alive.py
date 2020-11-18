@@ -8,16 +8,16 @@ from uniborg.util import admin_cmd
 from userbot import ALIVE_NAME
 from telethon.tl.types import ChannelParticipantsAdmins
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
-PM_IMG = "https://media.giphy.com/media/Lopx9eUi34rbq/giphy.gif"
+PM_IMG = "https://media.giphy.com/media/3oEjI0naHAj6j8Bn2M/giphy.giff"
 pm_caption = "`ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot IS:` **ONLINE**\n\n"
-pm_caption += "🔸**SYSTEM STATUS**\n"
-pm_caption += "🔹TELETHON VERSION             : **6.0.9**\n`Python:` **3.7.4**\n"
-pm_caption += "🔸DATABASE STATUS              : **Functional**\n"
-pm_caption += "🔹**Current Branch**           : `Master`\n"
-pm_caption += "🔸**ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot OS**  : `1.14`\n"
-pm_caption += f"🔹**My Boss**                 : {DEFAULTUSER} \n"
-pm_caption += "🔸**Made By 😎**               : [Sensei](https://t.me/sensei_nex)\n\n"
-pm_caption += "🔻Deploy Your Own              : [Repo](https://github.com/SenseiMAX/SenseiMAX-Kingbot)\n"
+pm_caption += "🔸**SYSTEM STATU**\n"
+pm_caption += "🔹TELETHON VERSION          : **6.0.9**\n`⭕️ Python: **3.7.4**\n"
+pm_caption += "🔸DATABASE STATUS           : **Functional**\n"
+pm_caption += "🔹**Current Branch**        : `Master`\n"
+pm_caption += "🔸**ᔕᗴᑎᔕᗴᎥᗰᗩ᙭ OS**        :   1.14`\n"
+pm_caption += f"🔹**My Boss**              :  {DEFAULTUSER} \n"
+pm_caption += "🔸**Made By 😎**            :  [Sensei](https://t.me/sensei_nex)\n\n"
+pm_caption += "🔻Deploy Your Own           :  [ℝ𝕖𝕡𝕠](https://github.com/SenseiMAX/SenseiMAX-Kingbot)\n"
 
 @borg.on(admin_cmd(pattern=r"alive"))
 async def friday(alive):
