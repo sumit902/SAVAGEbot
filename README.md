@@ -62,7 +62,7 @@ Fortunately there are no Mandatory vars for the UniBorg Support Config.
 
 ## CREDITS
    -[Sensei](https://t.me/Sensei_nex)🔥🔥 Owner of this repo 🔥🔥
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/uVQiKrZG7RQ7jteaJI" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/parlophone-fire-fight-uVQiKrZG7RQ7jteaJI">via GIPHY</a></p>
+    [![Sensei](https://media.giphy.com/media/uVQiKrZG7RQ7jteaJI/giphy.gif)
    
    
    -[MaxPrem](https://t.me/@ackerPrem)
