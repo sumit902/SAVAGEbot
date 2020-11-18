@@ -1,6 +1,6 @@
 """ Speak a line... 
     Command .mirzapur
-    By @The_Avengers_leader """
+    By @hackerprem """
 
 from telethon import events
 import asyncio
@@ -53,4 +53,4 @@ async def _(event):
     if x==18:
         await event.edit("Yeh Mumbai hai, yaha ghar ke naam pe kya milta hai? Machis ki dibbi, tilli jaise pade raho iske andar.")
     if x==19:
-        await event.edit("Written and Created By: @The_Avengers_leader join @pyfilestonystark ! thank you🙏🏻❤")
+        await event.edit("Written and Created By: @hackerprem join @pyfilesofsensiemaxuserbot ! thank you🙏🏻❤")
