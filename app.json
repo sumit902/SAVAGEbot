@@ -1,6 +1,6 @@
 {
-  "name": "SenseiMAX Kingbott",
-  "description": "Userbot created by a @Sensei_nex and join https://t.me/SenseiMAXprojects for any problems or support",
+  "name": "ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot",
+  "description": "Userbot created by a @Sensei_nex and join [Us](https://t.me/SenseiMAXprojects) for any problems or support",
   "logo": "https://telegra.ph/file/2f76a5ea2a9ec22ab4284.jpg",
     "keywords": [
     "telegram",
@@ -58,7 +58,7 @@
       "value": ""
     },
     "STRING_SESSION": {
-      "description": "Get this value from Termux Python 3",
+      "description": "Get this value from https://repl.it/@SenseiOfficial/String-Session-1 ",
       "value": ""
     },
     "GITHUB_ACCESS_TOKEN": {
@@ -77,7 +77,7 @@
       "required": false
     },
     "HEROKU_API_KEY": {
-      "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
+      "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API. Required for updater to work.",
       "value": ""
     },
     "HEROKU_APP_NAME": {
@@ -85,11 +85,11 @@
       "value": ""
     },
     "TG_BOT_TOKEN_BF_HER": {
-      "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn of inline Mode on bot settings. Get it.",
+      "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn off inline Mode on bot settings. Get it.",
       "value": ""
     },
     "SUDO_USERS": {
-      "description": "Makes your acc and bot stable",
+      "description": "Makes your account and bot stable",
       "value": "709723121",
       "required": true
     },
