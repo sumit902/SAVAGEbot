@@ -1,3 +1,6 @@
+"""Update UserBot code
+Syntax: .update"""
+
 import git
 from contextlib import suppress
 import os
@@ -13,22 +16,22 @@ IS_SELECTED_DIFFERENT_BRANCH = (
     "please check out to an official branch, and re-start the updater."
 )
 OFFICIAL_UPSTREAM_REPO = "https://github.com/SenseiMAX/SenseiMAX-Kingbot"
-BOT_IS_UP_TO_DATE = "the ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot is up-to-date."
+BOT_IS_UP_TO_DATE = "ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbo is up-to-date!"
 NEW_BOT_UP_DATE_FOUND = (
-    "new update found for {branch_name}\n"
-    "changelog: \n\n{changelog}\n"
-    "updating ..."
+    "**ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbo Update Found For** {branch_name}\n"
+    "\n\n{changelog}\n"
+    "Pulling Updates !!"
 )
 NEW_UP_DATE_FOUND = (
-    "new update found for {branch_name}\n"
-    "updating ..."
+    "**New update found for** {branch_name}\n"
+    "Updating And Restarting..."
 )
 REPO_REMOTE_NAME = "temponame"
 IFFUCI_ACTIVE_BRANCH_NAME = "master"
 DIFF_MARKER = "HEAD..{remote_name}/{branch_name}"
-NO_HEROKU_APP_CFGD = "no heroku application found, but a key given? 😕 "
+NO_HEROKU_APP_CFGD = "No heroku application found, but a key given?"
 HEROKU_GIT_REF_SPEC = "HEAD:refs/heads/master"
-RESTARTING_APP = "re-starting heroku application"
+RESTARTING_APP = "Re-Starting heroku application"
 # -- Constants End -- #
 
 
@@ -69,8 +72,8 @@ async def updater(message):
     )
 
     if not changelog:
-        await message.edit("Updating...")
-        await asyncio.sleep(8)
+        await message.edit("**Updating ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot* \n**Version** : `2.0` \n**Telethon** : `1.15.0` \n**Status** : `Pulling Updates` \n**Thank You For Using ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot !**")
+        await asyncio.sleep(5)
  
     message_one = NEW_BOT_UP_DATE_FOUND.format(
         branch_name=active_branch_name,
@@ -132,14 +135,12 @@ def generate_change_log(git_repo, diff_marker):
     out_put_str = ""
     d_form = "%d/%m/%y"
     for repo_change in git_repo.iter_commits(diff_marker):
-        out_put_str += f"•[{repo_change.committed_datetime.strftime(d_form)}]: {repo_change.summary} <{repo_change.author}>\n"
+        out_put_str += f"×[{repo_change.committed_datetime.strftime(d_form)}]: {repo_change.summary} <{repo_change.author}>\n"
     return out_put_str
 
 async def deploy_start(bot, message, refspec, remote):
     await message.edit(RESTARTING_APP)
-    await message.edit("Updating the ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot.... Do .alive after 5 mins to check if ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot is alive or not..")
-    await remote.push(refspec=refspec)
+    await message.edit("**Updating ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot** \n**Version** : `2.0` \n**Telethon** : `1.15.0` \n**Branch** : `Master` \n**Status** : `Updating & Restarting` \n__You Can Do__ `.alive` __To Check If I am Alive !__")
+    remote.push(refspec=refspec)
     await bot.disconnect()
     os.execl(sys.executable, sys.executable, *sys.argv)
-   
-       
