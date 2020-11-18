@@ -1,8 +1,7 @@
-#credit to kraken. madharchod plz dont copy
-#Made By @veryhelful. 
+#credit to MAX. madharchod plz dont copy
+#Made By @hackerprem. 
 #thanks to kraken to give his plugin to edit and giving me idea
-#all punjabi sahyri here are given by @Arwinder10
-
+#all sahyri here are given by @Sensei_nex
 
 
 from telethon import events
@@ -14,7 +13,7 @@ from userbot import ALIVE_NAME, CMD_HELP
 from userbot.utils import admin_cmd, edit_or_reply
 
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "@pyforub"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "@pyfilesofsensiemaxuserbot"
 
 sawan = bot.uid
 
@@ -22,7 +21,7 @@ sawan = bot.uid
 async def _(event):
     if event.fwd_from:
         return
-    await event.edit("@veryhelpful Making A Shayri.......")
+    await event.edit("@hackerprem Making A Shayri.......")
     await asyncio.sleep(1.3)
     h=(random.randrange(1,9))
     if h==1:
@@ -48,7 +47,7 @@ async def _(event):
 async def _(event):
     if event.fwd_from: 
         return
-    await event.edit("@veryhelpful Making A Shayri.......")
+    await event.edit("@hackerprem Making A Shayri.......")
     await asyncio.sleep(1.3)
     h=(random.randrange(1,22))
     if h==1:
