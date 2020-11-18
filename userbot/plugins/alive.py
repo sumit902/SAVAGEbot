@@ -50,7 +50,7 @@ async def amireallyalive(alive):
         pm_caption += "ᗰY ᑭEᖇO ᔕᗯᗩᗰI            : {DEFAULTUSER}\n"
         pm_caption += "●тєℓєтнση 𝚅𝙴𝚁𝚂𝙸𝙾𝙽●          : 15.0\n"
         pm_caption += "P̶y̶t̶h̶o̶n̶ ̶V̶e̶r̶s̶i̶o̶n̶               : 3.8.5\n"
-        pm_caption += "OS                           : Kali Linux/Gnu rolling x64
+        pm_caption += "OS                           : Kali Linux/Gnu rolling x64"
         pm_caption += "『𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻           : [ᴊᴏɪɴ]((https://t.me/SenseiMAXprojects)\n"
         pm_caption += "『𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿             : [ᴊᴏɪɴ](https://t.me/senseiBOT_supportchat)\n"
         pm_caption += "𝘓𝘐CENCE                       : MIT License](https://t.me/Sensei_nex)\n"
@@ -84,7 +84,7 @@ async def amireallyalive(alive):
                       f"ᗰY ᑭEᖇO ᔕᗯᗩᗰI           : {DEFAULTUSER}\n"
                       "●тєℓєтнση 𝚅𝙴𝚁𝚂𝙸𝙾𝙽●          : 15.0\n"
                       "P̶y̶t̶h̶o̶n̶ ̶V̶e̶r̶s̶i̶o̶n̶               : 3.8.5\n"
-                      "OS                           : Kali Linux/Gnu rolling x64
+                      "OS                           : Kali Linux/Gnu rolling x64"
                       "『𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻           : [ᴊᴏɪɴ](https://t.me/SenseiMAXprojects)\n"
                       "『𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿             : [ᴊᴏɪɴ](https://t.me/senseiBOT_supportchat)\n"
                       "𝘓𝘐CENCE                       : MIT License](https://t.me/Sensei_nex)\n"
