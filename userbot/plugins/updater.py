@@ -1,15 +1,10 @@
-"""Update UserBot code
-Syntax: .update"""
-
 import git
 from contextlib import suppress
 import os
 import sys
 import asyncio
 from userbot.utils import admin_cmd
-from userbot import ALIVE_NAME
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
 # -- Constants -- #
 IS_SELECTED_DIFFERENT_BRANCH = (
     "looks like a custom branch {branch_name} "
@@ -17,16 +12,16 @@ IS_SELECTED_DIFFERENT_BRANCH = (
     "in this case, Updater is unable to identify the branch to be updated."
     "please check out to an official branch, and re-start the updater."
 )
-OFFICIAL_UPSTREAM_REPO = "https://github.com/SenseiMAX/SenseiMAX-Kingbot/"
-BOT_IS_UP_TO_DATE = "ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot is up-to-date!."
+OFFICIAL_UPSTREAM_REPO = "https://github.com/SenseiMAX/SenseiMAX-Kingbot"
+BOT_IS_UP_TO_DATE = "the ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot is up-to-date."
 NEW_BOT_UP_DATE_FOUND = (
-    "**ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot update Found For** {branch_name}\n"
-    "\n\n{changelog}\n"
-    "Pulling Updates !!"
+    "new update found for {branch_name}\n"
+    "changelog: \n\n{changelog}\n"
+    "updating ..."
 )
 NEW_UP_DATE_FOUND = (
-    "**New update found for** {branch_name}\n"
-    "Updating And Restarting..."
+    "new update found for {branch_name}\n"
+    "updating ..."
 )
 REPO_REMOTE_NAME = "temponame"
 IFFUCI_ACTIVE_BRANCH_NAME = "master"
@@ -74,7 +69,7 @@ async def updater(message):
     )
 
     if not changelog:
-        await message.edit("Pulling Update From Branch **master** !!!!")
+        await message.edit("Updating...")
         await asyncio.sleep(8)
  
     message_one = NEW_BOT_UP_DATE_FOUND.format(
@@ -142,9 +137,9 @@ def generate_change_log(git_repo, diff_marker):
 
 async def deploy_start(bot, message, refspec, remote):
     await message.edit(RESTARTING_APP)
-    await message.edit(" {DEFAULTUSER} : Updating ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot \n ✔ Got Updates From Official RepoSitory \n ✔ Getting Code From Master Branch \n ✔ Restarting Dynos \n ✔ Under 10 mins ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot will be up with latest updates \n ✔Thanks For Using ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot ")
+    await message.edit("Updating the ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot.... Do .alive after 5 mins to check if ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot is alive or not..")
     await remote.push(refspec=refspec)
     await bot.disconnect()
     os.execl(sys.executable, sys.executable, *sys.argv)
-
-    
+   
+       
