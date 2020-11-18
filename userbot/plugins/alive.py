@@ -8,7 +8,7 @@ from uniborg.util import admin_cmd
 from userbot import ALIVE_NAME
 from telethon.tl.types import ChannelParticipantsAdmins
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
-PM_IMG = "https://media.giphy.com/media/3oEjI0naHAj6j8Bn2M/giphy.giff"
+PM_IMG = "https://media.giphy.com/media/3oEjI0naHAj6j8Bn2M/giphy.gif"
 pm_caption = "`ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot IS:` **ONLINE**\n\n"
 pm_caption += "🔸**SYSTEM STATU**\n"
 pm_caption += "🔹TELETHON VERSION          : **6.0.9**\n`⭕️ Python: **3.7.4**\n"
