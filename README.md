@@ -69,9 +69,19 @@ Fortunately there are no Mandatory vars for the UniBorg Support Config.
 ![Sensei](https://media.giphy.com/media/uVQiKrZG7RQ7jteaJI/giphy.gif)
    
    
-   -[MaxPrem](https://t.me/@HackerPrem)
+   -[MaxPrem](https://t.me/@HackerPrem)🔥🔥 Co-Owner of this repo 🔥🔥
+
+
+
+
+![PRem](https://telegra.ph/file/4795ea274eec3851d86d5.jpg)
+
    
    
-   -[Kartik](https://t.me/Kartikrajofficial)
+   -[Kartik](https://t.me/Kartikrajofficial)             Co-dev
    
-   
+   -[ZALA](https://t.me/khooni_murda)                   Co-dev
+   -[HellBoy](https://t.me/kraken_the_badass)           Fixing Errror
+   -[Hellboi_Atul](https://t.me/The_Siddharth_Nigam)   For assisting me on every issue I faced 
+
+
