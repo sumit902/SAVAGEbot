@@ -79,9 +79,27 @@ Fortunately there are no Mandatory vars for the UniBorg Support Config.
    
    
    -[Kartik](https://t.me/Kartikrajofficial)             Co-dev
+
+
+
+
+
+
    
    -[ZALA](https://t.me/khooni_murda)                   Co-dev
+
+
+
+
+
+
    -[HellBoy](https://t.me/kraken_the_badass)           Fixing Errror
+
+
+
+
+
+
    -[Hellboi_Atul](https://t.me/The_Siddharth_Nigam)   For assisting me on every issue I faced 
 
 
