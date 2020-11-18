@@ -74,4 +74,4 @@ Fortunately there are no Mandatory vars for the UniBorg Support Config.
    
    -[Kartik](https://t.me/Kartikrajofficial)
    
-   -[ZALA] (https://t.me/@KHOONI_MURDA)
+   
