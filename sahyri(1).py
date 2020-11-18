@@ -15,7 +15,7 @@ from userbot.utils import admin_cmd, edit_or_reply
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "@pyfilesofsensiemaxuserbot"
 
-sawan = bot.uid
+Max = bot.uid
 
 @bot.on(admin_cmd(pattern=r"plove$", outgoing=True))
 async def _(event):
