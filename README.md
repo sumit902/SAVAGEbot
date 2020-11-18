@@ -69,10 +69,9 @@ Fortunately there are no Mandatory vars for the UniBorg Support Config.
 ![Sensei](https://media.giphy.com/media/uVQiKrZG7RQ7jteaJI/giphy.gif)
    
    
-   -[MaxPrem](https://t.me/@ackerPrem)
+   -[MaxPrem](https://t.me/@HackerPrem)
    
    
    -[Kartik](https://t.me/Kartikrajofficial)
    
-   
-
+   -[ZALA] (https://t.me/@KHOONI_MURDA)
