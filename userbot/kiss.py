@@ -1,4 +1,4 @@
-#Made By @helloji123bot. Keep Credits. Cause It hurts. Join @testpy12 for more.
+#Made By @hackerprem. Keep Credits. Cause It hurts. Join @pyfilesofsensiemaxuserbot for more.
 
 
 
@@ -41,7 +41,7 @@ async def _(event):
             "😚",
             "😍",
             "😘",
-            "LOVE YOU❤💖💘"
+            "LOVE YOU JANNU U GIVE ME A LONG KISS😘❤💖💘"
         ]
     for i in animation_ttl:
             await asyncio.sleep(animation_interval)
