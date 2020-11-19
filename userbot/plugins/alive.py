@@ -17,7 +17,7 @@ pm_caption += "🔹**Current Branch** : `Master`\n"
 pm_caption += "🔸**Legend OS** :   1.14`\n"
 pm_caption += f"🔹**My Boss** : {DEFAULTUSER} \n"
 pm_caption += "🔸**Made By 😎** : [Legend](https://t.me/legendx22)\n\n"
-pm_caption += "🔻Deploy LegendBOT : [ℝ𝕖𝕡𝕠](https://github.com/legendx22/LegendBOT\n"
+pm_caption += "🔻Deploy LegendBOT : [ℝ𝕖𝕡𝕠](https://github.com/legendx22/LegendBOT)\n"
 
 @borg.on(admin_cmd(pattern=r"alive"))
 async def friday(alive):
