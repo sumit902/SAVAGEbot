@@ -1,5 +1,5 @@
 #credits to @kraken_the_badass
-#kanged by @sensei_nex for @senseiMAXprojects
+#beautification credits to @sensei_nex for @senseiMAXprojects
 
 #IMG CREDITS: @WhySooSerious
 import asyncio
@@ -8,16 +8,16 @@ from uniborg.util import admin_cmd
 from userbot import ALIVE_NAME
 from telethon.tl.types import ChannelParticipantsAdmins
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
-PM_IMG = "https://media.giphy.com/media/3oEjI0naHAj6j8Bn2M/giphy.gif"
-pm_caption = "⚠️ ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot is On 🔥 FIRE �⚠️ \n\n"
+PM_IMG = "https://telegra.ph/file/b58e5081b793f627e6c40.jpg"
+pm_caption = "⚠️ LegendBOT is On 🔥 FIRE �⚠️ \n\n"
 pm_caption += "🔸**SYSTEM STATU**\n"
 pm_caption += "🔹TELETHON VERSION : **6.0.9**\n ⭕️ Python: **3.7.4**\n"
 pm_caption += "🔸DATABASE STATUS  : **Functional**\n"
 pm_caption += "🔹**Current Branch** : `Master`\n"
-pm_caption += "🔸**ᔕᗴᑎᔕᗴᎥᗰᗩ᙭ OS** :   1.14`\n"
+pm_caption += "🔸**Legend OS** :   1.14`\n"
 pm_caption += f"🔹**My Boss** : {DEFAULTUSER} \n"
-pm_caption += "🔸**Made By 😎** : [This Peros](https://t.me/senseimaxxx)\n\n"
-pm_caption += "🔻Deploy ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot : [ℝ𝕖𝕡𝕠](https://github.com/SenseiMAX/SenseiMAX-Kingbot)\n"
+pm_caption += "🔸**Made By 😎** : [Legend](https://t.me/legendx22)\n\n"
+pm_caption += "🔻Deploy LegendBOT : [ℝ𝕖𝕡𝕠](https://github.com/legendx22/LegendBOT\n"
 
 @borg.on(admin_cmd(pattern=r"alive"))
 async def friday(alive):
