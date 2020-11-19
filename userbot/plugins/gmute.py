@@ -55,7 +55,7 @@ async def endgmute(event):
     except Exception as e:
         await event.edit("Error occured!\nError is " + str(e))
     else:
-        await event.edit("Successfully ungmuted that person")
+        await event.edit("Successfully ungmuted the bitch")
 
 @command(outgoing=True, pattern=r"^.gmute ?(\d+)?", allow_sudo=True)
 async def startgmute(event):
@@ -84,7 +84,7 @@ async def startgmute(event):
     except Exception as e:
         await event.edit("Error occured!\nError is " + str(e))
     else:
-        await event.edit("Successfully gmuted the bitch)
+        await event.edit("Successfully gmuted the bitch")
 
 @command(outgoing=True, pattern=r"^.ungmute ?(\d+)?", allow_sudo=True)
 async def endgmute(event):
