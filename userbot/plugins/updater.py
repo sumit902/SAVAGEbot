@@ -1,3 +1,4 @@
+#code by @sensei_nex , If you will change the credits you are the biggest mutherfucked 
 """Update UserBot code
 Syntax: .update"""
 
@@ -15,8 +16,8 @@ IS_SELECTED_DIFFERENT_BRANCH = (
     "in this case, Updater is unable to identify the branch to be updated."
     "please check out to an official branch, and re-start the updater."
 )
-OFFICIAL_UPSTREAM_REPO = "https://github.com/SenseiMAX/SenseiMAX-Kingbot"
-BOT_IS_UP_TO_DATE = "❂ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbo is up-to-date!❂"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/legendx22/LegendBOT"
+BOT_IS_UP_TO_DATE = "❂LegendBOT is up-to-date!❂"
 NEW_BOT_UP_DATE_FOUND = (
     "**ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbo Update Found For** {branch_name}\n"
     "\n\n{changelog}\n"
@@ -72,7 +73,7 @@ async def updater(message):
     )
 
     if not changelog:
-        await message.edit("**﹁﹁Updating ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot* \n**Version** : `2.0` \n**Telethon** : `1.15.0` \n**Status** : `«Pulling Updates»` \n『**Thank You For Using ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot !**』")
+        await message.edit("**﹁﹁Updating LegendBOTt* \n**Version** : `2.0` \n**Telethon** : `1.15.0` \n**Status** : `«Pulling Updates»` \n『**Thank You For Using LegendBOT !**』")
         await asyncio.sleep(5)
  
     message_one = NEW_BOT_UP_DATE_FOUND.format(
@@ -140,7 +141,7 @@ def generate_change_log(git_repo, diff_marker):
 
 async def deploy_start(bot, message, refspec, remote):
     await message.edit(RESTARTING_APP)
-    await message.edit("**✇✇Updating ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot✇** \n**Version** : `2.0` \n**Telethon** : `1.15.0` \n**Branch** : `✇Master✇` \n**Status** : `✇Updating & Restarting` \n__You Can Do__ `.alive` __To Check If I am Alive !__✇")
+    await message.edit("**✇✇Updating LegendBOTt✇** \n**Version** : `2.0` \n**Telethon** : `1.15.0` \n**Branch** : `✇Master✇` \n**Status** : `✇Updating & Restarting` \n__You Can Do__ `.alive` __To Check If I am Alive !__✇")
     remote.push(refspec=refspec)
     await bot.disconnect()
     os.execl(sys.executable, sys.executable, *sys.argv)
