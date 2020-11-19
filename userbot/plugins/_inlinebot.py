@@ -38,7 +38,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             # https://t.me/sensible_userbot
             await event.edit(buttons=buttons)
         else:
-            reply_pop_up_alert = "Get your own userbot, don't use others\n  Join @Sensible_userbot for learning how to get userbot!"
+            reply_pop_up_alert = "Get your own userbot, don't use others\n  Join @teamishere for learning how to get userbot!"
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
 
@@ -92,8 +92,8 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
 
 
 def paginate_help(page_number, loaded_plugins, prefix):
-    number_of_rows = 11
-    number_of_cols = 2
+    number_of_rows = 10
+    number_of_cols = 3
     helpable_plugins = []
     for p in loaded_plugins:
         if not p.startswith("_"):
