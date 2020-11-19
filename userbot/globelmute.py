@@ -1,6 +1,6 @@
 '''
 Fuck
-Fixed for userbot.. By @hellboi_atul.
+Fixed for userbot.. By @hackerprem and giving me idea @The_Siddharth_Nigam.
 '''
 from userbot.plugins.sql_helper.mute_sql import is_muted, mute, unmute
 import asyncio
@@ -34,13 +34,13 @@ async def startgmute(event):
     chat_id = event.chat_id
     chat = await event.get_chat()
     if is_muted(userid, "gmute"):
-        return await event.edit("Duct Tape is already in this user's mouth😷")
+        return await event.edit("Bitch is already gmuted 😷")
     try:
         mute(userid, "gmute")
     except Exception as e:
         await event.edit("Error occured!\nError is " + str(e))
     else:
-        await event.edit("Successfully putted Duct Tape on that person's mouth😷")
+        await event.edit("Bitch was Successfully gmuted  By userbot 😷")
 
 #@command(outgoing=True, pattern=r"^.ungmute ?(\d+)?")
 @borg.on(admin_cmd(pattern=r"ungmute ?(\d+)?"))
@@ -49,7 +49,7 @@ async def endgmute(event):
     if event.fwd_from:
         return
     elif event.is_private:
-        await event.edit("Removed Duct Tape from that person's mouth!😐")
+        await event.edit("Bitch is Successfully ungmuted by userbot that person's now speak again!😐")
         await asyncio.sleep(3)
         private = True
     reply = await event.get_reply_message()
@@ -63,13 +63,13 @@ async def endgmute(event):
         return await event.edit("Please reply to a user or add their into the command to ungmute them.")
     chat_id = event.chat_id
     if not is_muted(userid, "gmute"):
-        return await event.edit("Duct Tape is not on this user's mouth")
+        return await event.edit("Bitch is not gmuted by userbot")
     try:
         unmute(userid, "gmute")
     except Exception as e:
         await event.edit("Error occured!\nError is " + str(e))
     else:
-        await event.edit("Successfully Removed Duct Tape from that person's mouth")
+        await event.edit("Bitch is Successfully ungmuted by userbot that person's now speak again!😐")
         
 @command(incoming=True)
 async def watcher(event):
