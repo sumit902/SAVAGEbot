@@ -1,7 +1,7 @@
 # ᔕᗴᑎᔕᗴᎥᗰᗩ᙭ ᛕᎥᑎǤᗷᗝ丅
 
 <p align="center">
-<img src="https://media.giphy.com/media/3tHQUCykC63f6i099R/giphy.gif" alt="ᔕᗴᑎᔕᗴᎥᗰᗩ᙭ ᛕᎥᑎǤᗷᗝ丅">
+<img src="https://media.giphy.com/media/LMW1dqVRT5itdO2KYN/giphy.gif" alt="ᔕᗴᑎᔕᗴᎥᗰᗩ᙭ ᛕᎥᑎǤᗷᗝ丅">
 
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
@@ -66,7 +66,7 @@ Fortunately there are no Mandatory vars for the UniBorg Support Config.
 
 
 
-![Sensei](https://media.giphy.com/media/uVQiKrZG7RQ7jteaJI/giphy.gif)
+![Sensei](https://media.giphy.com/media/xT0GqimU9dTwmE5lra/giphy.gif)
    
    
    -[MaxPrem](https://t.me/@HackerPrem)🔥🔥 Co-Owner of this repo 🔥🔥
