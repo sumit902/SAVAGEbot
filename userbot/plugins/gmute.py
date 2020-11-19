@@ -1,3 +1,4 @@
+#credits to @kraken _the_badass 
 from userbot.plugins.sql_helper.mute_sql import is_muted, mute, unmute
 import asyncio
 
@@ -7,8 +8,8 @@ async def startgmute(event):
     if event.fwd_from:
         return
     elif event.is_private:
-        await event.edit("ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot: Rᴇᴏ̨ᴜᴇsᴛɪɴɢ ᴛᴏ gmute the bitch🥴")
-        await asyncio.sleep(3)
+        await event.edit("LegendBOT: Rᴇᴏ̨ᴜᴇsᴛɪɴɢ ᴛᴏ gmute the bitch🥴")
+        await asyncio.sleep(4)
         private = True
     reply = await event.get_reply_message()
     if event.pattern_match.group(1) is not None:
@@ -36,7 +37,7 @@ async def endgmute(event):
     if event.fwd_from:
         return
     elif event.is_private:
-        await event.edit("ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot: Rᴇᴏ̨ᴜᴇsᴛɪɴɢ ᴛᴏ gmute the bitch🥴")
+        await event.edit("LegendBOTt: Rᴇᴏ̨ᴜᴇsᴛɪɴɢ ᴛᴏ gmute the bitch🥴")
         private = True
     reply = await event.get_reply_message()
     if event.pattern_match.group(1) is not None:
@@ -63,7 +64,7 @@ async def startgmute(event):
     if event.fwd_from:
         return
     elif event.is_private:
-        await event.edit("ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot: Rᴇᴏ̨ᴜᴇsᴛɪɴɢ ᴛᴏ gmute  ᴛʜᴇ bitch🥴")
+        await event.edit("LegendBOTt: Rᴇᴏ̨ᴜᴇsᴛɪɴɢ ᴛᴏ gmute  ᴛʜᴇ bitch🥴")
         await asyncio.sleep(3)
         private = True
     reply = await event.get_reply_message()
@@ -92,7 +93,7 @@ async def endgmute(event):
     if event.fwd_from:
         return
     elif event.is_private:
-        await event.edit("ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot: Rᴇᴏ̨ᴜᴇsᴛɪɴɢ ᴛᴏ gmute ᴛʜᴇ bitch🥴")
+        await event.edit("LegendBOTt: Rᴇᴏ̨ᴜᴇsᴛɪɴɢ ᴛᴏ gmute ᴛʜᴇ bitch🥴")
         await asyncio.sleep(3)
         private = True
     reply = await event.get_reply_message()
