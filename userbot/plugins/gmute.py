@@ -7,7 +7,7 @@ async def startgmute(event):
     if event.fwd_from:
         return
     elif event.is_private:
-        await event.edit("Sᴇɴsɪʙʟᴇ Usᴇʀʙᴏᴛ : Rᴇᴏ̨ᴜᴇsᴛɪɴɢ ᴛᴏ ɢʟᴏʙᴀʟʟʏ ᴍᴜᴛᴇ ᴛʜᴇ ᴜsᴇʀ")
+        await event.edit("ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot: Rᴇᴏ̨ᴜᴇsᴛɪɴɢ ᴛᴏ gmute the bitch🥴")
         await asyncio.sleep(3)
         private = True
     reply = await event.get_reply_message()
@@ -22,13 +22,13 @@ async def startgmute(event):
     chat_id = event.chat_id
     chat = await event.get_chat()
     if is_muted(userid, "gmute"):
-        return await event.edit("This user is already gmuted")
+        return await event.edit("Bitch was already gmuted😂")
     try:
         mute(userid, "gmute")
     except Exception as e:
         await event.edit("Error occured!\nError is " + str(e))
     else:
-        await event.edit("Successfully gmuted that person")
+        await event.edit("Successfully gmuted the bitch")
 
 @command(outgoing=True, pattern=r"^.ungmute ?(\d+)?")
 async def endgmute(event):
@@ -36,8 +36,7 @@ async def endgmute(event):
     if event.fwd_from:
         return
     elif event.is_private:
-        await event.edit("Sᴇɴsɪʙʟᴇ Usᴇʀʙᴏᴛ : Rᴇᴏ̨ᴜᴇsᴛɪɴɢ ᴛᴏ ɢʟᴏʙᴀʟʟʏ ᴍᴜᴛᴇ ᴛʜᴇ ᴜsᴇʀ")
-        await asyncio.sleep(3)
+        await event.edit("ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot: Rᴇᴏ̨ᴜᴇsᴛɪɴɢ ᴛᴏ gmute the bitch🥴")
         private = True
     reply = await event.get_reply_message()
     if event.pattern_match.group(1) is not None:
@@ -50,7 +49,7 @@ async def endgmute(event):
         return await event.edit("Please reply to a user or add their into the command to ungmute them.")
     chat_id = event.chat_id
     if not is_muted(userid, "gmute"):
-        return await event.edit("This user is not gmuted")
+        return await event.edit("Bitch is not gmuted")
     try:
         unmute(userid, "gmute")
     except Exception as e:
@@ -64,7 +63,7 @@ async def startgmute(event):
     if event.fwd_from:
         return
     elif event.is_private:
-        await event.edit("Sᴇɴsɪʙʟᴇ Usᴇʀʙᴏᴛ : Rᴇᴏ̨ᴜᴇsᴛɪɴɢ ᴛᴏ ɢʟᴏʙᴀʟʟʏ ᴍᴜᴛᴇ ᴛʜᴇ ᴜsᴇʀ")
+        await event.edit("ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot: Rᴇᴏ̨ᴜᴇsᴛɪɴɢ ᴛᴏ gmute  ᴛʜᴇ bitch🥴")
         await asyncio.sleep(3)
         private = True
     reply = await event.get_reply_message()
@@ -79,13 +78,13 @@ async def startgmute(event):
     chat_id = event.chat_id
     chat = await event.get_chat()
     if is_muted(userid, "gmute"):
-        return await event.edit("This user is already gmuted")
+        return await event.edit("Bitch is already gmuted😂")
     try:
         mute(userid, "gmute")
     except Exception as e:
         await event.edit("Error occured!\nError is " + str(e))
     else:
-        await event.edit("Successfully gmuted that person")
+        await event.edit("Successfully gmuted the bitch)
 
 @command(outgoing=True, pattern=r"^.ungmute ?(\d+)?", allow_sudo=True)
 async def endgmute(event):
@@ -93,7 +92,7 @@ async def endgmute(event):
     if event.fwd_from:
         return
     elif event.is_private:
-        await event.edit("Sᴇɴsɪʙʟᴇ Usᴇʀʙᴏᴛ : Rᴇᴏ̨ᴜᴇsᴛɪɴɢ ᴛᴏ ɢʟᴏʙᴀʟʟʏ ᴍᴜᴛᴇ ᴛʜᴇ ᴜsᴇʀ")
+        await event.edit("ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot: Rᴇᴏ̨ᴜᴇsᴛɪɴɢ ᴛᴏ gmute ᴛʜᴇ bitch🥴")
         await asyncio.sleep(3)
         private = True
     reply = await event.get_reply_message()
@@ -107,13 +106,13 @@ async def endgmute(event):
         return await event.edit("Please reply to a user or add their into the command to ungmute them.")
     chat_id = event.chat_id
     if not is_muted(userid, "gmute"):
-        return await event.edit("This user is not gmuted")
+        return await event.edit("Bitch is not gmuted")
     try:
         unmute(userid, "gmute")
     except Exception as e:
         await event.edit("Error occured!\nError is " + str(e))
     else:
-        await event.edit("Successfully ungmuted that person")
+        await event.edit("Successfully ungmuted the bitch")
 
 @command(incoming=True)
 async def watcher(event):
