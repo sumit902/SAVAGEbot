@@ -31,10 +31,10 @@ else:
             api_id=Var.APP_ID,
             api_hash=Var.API_HASH
         ).start(bot_token=Var.TG_BOT_TOKEN_BF_HER)
-        print("Initialisation finished with no errors , Your ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot will be ready in sometime")
-        print("Starting ᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot")
+        print("Initialisation finished with no errors , Your LegendBOT will be ready in sometime")
+        print("Starting LegendBOT")
         bot.loop.run_until_complete(add_bot(Var.TG_BOT_USER_NAME_BF_HER))
-        print("ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot's Startup Completed")
+        print("LegendBOT's Startup Completed")
     else:
         bot.start()
     
@@ -50,7 +50,7 @@ for name in files:
 
 import userbot._core
 
-print("➠ The most Powerful ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot is on fire 🔥. Check .alive to test that bot is functioning or not . Join https://t.me/SenseiMAXprojects for any assistance 👀  ")
+print("➠ The most Powerful LegendBOT is on fire 🔥. Check .alive to test that bot is functioning or not . Join http://t.me/teamishere for any assistance 👀  ")
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
