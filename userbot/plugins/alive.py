@@ -9,15 +9,15 @@ from userbot import ALIVE_NAME
 from telethon.tl.types import ChannelParticipantsAdmins
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
 PM_IMG = "https://telegra.ph/file/a7569a3504a269c9ee9f4.mp4"
-pm_caption = "⚠️  𝕃𝕖𝕘𝕖𝕟𝕕𝔹𝕆𝕋 is On 🔥 FIRE �⚠️ \n\n"
+pm_caption = "⚠️  LEGEND BOT IS ON 🔥 FIRE ⚠️ \n\n"
 pm_caption += "🔸**SYSTEM STATUS**\n"
 pm_caption += "🔹TELETHON VERSION : **6.0.9**\n ⭕️ Python: **3.7.4**\n"
 pm_caption += "🔸DATABASE STATUS  : **Functional**\n"
 pm_caption += "🔹**Current Branch** : `Master`\n"
-pm_caption += "🔸**LEGEND OS** :   1.16`\n"
-pm_caption += f"🔹**𝕄𝕐 𝔹𝕆𝕊𝕊** : {DEFAULTUSER} \n"
-pm_caption += "🔸 𝕸𝖆𝖍 ℃г𝐞ⓐ𝐭ᵒ𝓇 😎** : [LEGEND X](https://t.me/legendx22)\n\n"
-pm_caption += "🔻Deploy This 𝕃𝕖𝕘𝕖𝕟𝕕𝔹𝕆𝕋 : [ℝ𝕖𝕡𝕠](https://github.com/legendx22/LegendBOT)\n"
+pm_caption += "🔸**LEGEND OS** :   1.17`\n"
+pm_caption += f"🔹**MY MASTER** : {DEFAULTUSER} \n"
+pm_caption += "🔸 MY CREATOR 😎 : [LEGEND X](https://t.me/legendx22)\n\n"
+pm_caption += "🔻Deploy This LEGEND BOT : [REPO](https://github.com/legendx22/LegendBOT)\n"
 
 @borg.on(admin_cmd(pattern=r"alive"))
 async def friday(alive):
