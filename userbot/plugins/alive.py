@@ -9,7 +9,7 @@ from userbot import ALIVE_NAME
 from telethon.tl.types import ChannelParticipantsAdmins
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
 PM_IMG = "https://telegra.ph/file/a7569a3504a269c9ee9f4.mp4"
-pm_caption = "⚠️ LEGENDBOT IS ON 🔥 FIRE �⚠️ \n\n"
+pm_caption = "⚠️  𝕃𝕖𝕘𝕖𝕟𝕕𝔹𝕆𝕋 is On 🔥 FIRE �⚠️ \n\n"
 pm_caption += "🔸**SYSTEM STATUS**\n"
 pm_caption += "🔹TELETHON VERSION : **6.0.9**\n ⭕️ Python: **3.7.4**\n"
 pm_caption += "🔸DATABASE STATUS  : **Functional**\n"
@@ -17,7 +17,7 @@ pm_caption += "🔹**Current Branch** : `Master`\n"
 pm_caption += "🔸**LEGEND OS** :   1.15`\n"
 pm_caption += f"🔹**My Boss** : {DEFAULTUSER} \n"
 pm_caption += "🔸 My Creator 😎** : [LEGEND X](https://t.me/legendx22)\n\n"
-pm_caption += "🔻Deploy This LegendBOT : [ℝ𝕖𝕡𝕠](https://github.com/legendx22/LegendBOT)\n"
+pm_caption += "🔻Deploy This 𝕃𝕖𝕘𝕖𝕟𝕕𝔹𝕆𝕋 : [ℝ𝕖𝕡𝕠](https://github.com/legendx22/LegendBOT)\n"
 
 @borg.on(admin_cmd(pattern=r"alive"))
 async def friday(alive):
