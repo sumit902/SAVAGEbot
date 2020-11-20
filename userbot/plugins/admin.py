@@ -143,7 +143,7 @@ async def promote(promt):
     try:
         await promt.client(
             EditAdminRequest(promt.chat_id, user.id, new_rights, rank))
-        await promt.edit("`{DEFAULTUSER} : You Have Been Promoted :D Do Your Work Sincerly `")
+        await promt.edit("`{NOW} : You Have Been Promoted :D Do Your Work Sincerly `")
 
     # If Telethon spit BadRequestError, assume
     # we don't have Promote permission
@@ -200,7 +200,7 @@ async def demote(dmod):
     except BadRequestError:
         await dmod.edit(NO_PERM)
         return
-    await dmod.edit("`{DEFAULTUSER} : You Didnt Do Your Work Sincerly Hence You Have Been Demoted`")
+    await dmod.edit("`{NOW} : You Didnt Do Your Work Sincerly Hence You Have Been Demoted`")
 
     # Announce to the logging group if we have demoted successfully
     if BOTLOG:
