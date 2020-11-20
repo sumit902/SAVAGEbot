@@ -10,7 +10,7 @@ from userbot.utils import admin_cmd
 
 
 
-@borg.on(admin_cmd("h ?(.*)"))
+@borg.on(admin_cmd("info ?(.*)"))
 
 async def _(event):
 
