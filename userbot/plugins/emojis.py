@@ -1,40 +1,107 @@
-"""Emoji
-Available Commands:
-.emoji shrug
-.emoji apple
-.emoji :/
-.emoji -_-"""
+#Made By @helloji123bot . Keep Credits. Cause It hurts. Join @testpy12 for more.
+
+
+
 from telethon import events
 import asyncio
-from uniborg.util import admin_cmd
+from userbot.utils import admin_cmd
+from userbot import ALIVE_NAME
+import random
+import re
+from userbot import CMD_HELP
+from collections import deque
 
 
-@borg.on(admin_cmd(pattern="emoji (.*)"))
+
+@borg.on(admin_cmd(pattern=r"emoji$", outgoing=True))
 async def _(event):
     if event.fwd_from:
         return
-    animation_interval = 0.3
-    animation_ttl = range(0, 16)
-    input_str = event.pattern_match.group(1)
-    if input_str == "shrug":
-        await event.edit("¯\_(ツ)_/¯")
-    elif input_str == "apple":
-        await event.edit("\uF8FF")
-    elif input_str == ":/":
-        await event.edit(input_str)
-        animation_chars = [
-            ":\\",
-            ":/"
+    animation_interval = 1.3
+    animation_ttl = range(0, 50)
+    animation_chars = [
+            "⁣😀",
+            "😁",
+            "😂",
+            "🤣",
+            "😃",
+            "😄",
+            "😅",
+            "😆",
+            "😉",
+            "😊",
+            "😋",
+            "😎",
+            "😍",
+            "😘",
+            "😗",
+            "😙",
+            "😚",
+            "☺",
+            "🙂",
+            "🤗",
+            "😇",
+            "🤠",
+            "🤡",
+            "🤥",
+            "🤓",
+            "🤔",
+            "😐",
+            "😑",
+            "😶",
+            "🙄",
+            "😏",
+            "😣",
+            "😥",
+            "😮",
+            "🤐",
+            "😯",
+            "😪",
+            "😫",
+            "😴",
+            "😌",
+            "😛",
+            "😜",
+            "😝",
+            "🤤",
+            "😒",
+            "😓",
+            "😔",
+            "😕",
+            "🙃",
+            "🤑",
+            "😲",
+            "😷",
+            "🤒",
+            "🤕",
+            "🤢",
+            "🤧",
+            "☹",
+            "🙁",
+            "😖",
+            "😞",
+            "😟",
+            "😤",
+            "😢",
+            "😭",
+            "😦",
+            "😧",
+            "😨",
+            "😩",
+            "😬",
+            "😰",
+            "😱",
+            "😳",
+            "😵",
+            "😡",
+            "😠",
+            "😈",
+            "👿",
+            "👻"
+            
         ]
-        for i in animation_ttl:
+    for i in animation_ttl:
             await asyncio.sleep(animation_interval)
-            await event.edit(animation_chars[i % 2])
-    elif input_str == "-_-":
-        await event.edit(input_str)
-        animation_chars = [
-            "-__-",
-            "-_-"
-        ]
-        for i in animation_ttl:
-            await asyncio.sleep(animation_interval)
-            await event.edit(animation_chars[i % 2])
+            await event.edit(animation_chars[i % 20])  
+            
+            

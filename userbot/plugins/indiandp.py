@@ -10,18 +10,9 @@ import asyncio
 from time import sleep
 
 COLLECTION_STRINGZ = [
-  "dragon-ball-z",
-  "pokemon",
-  "pikachu",
-  "beyblade",
-  "death-note-anime",
-  "naruto-anime-best-scenes",
-  "pokemon-best-wallpapers",
-  "pokemon-best-scenes",
-  "best-beyblade-wallpaper",
-  "ash-ketchum-emotional-scenes",
-  "doraemon-best-4k-wallpaper",
-  "Doraemon-last-episode"
+  "india-flag-wallpaper-2018",
+  "indian-national-flag-wallpaper-3d",
+  "indian-independence-day-hd-pic-wallpaper-2018"
 ]
 
 async def animepp():
@@ -48,11 +39,11 @@ async def animepp():
 
     urllib.request.urlretrieve(fy,"donottouch.jpg")
 
-@borg.on(admin_cmd(pattern="animedp ?(.*)"))
+@borg.on(admin_cmd(pattern="indiandp ?(.*)"))
 
 async def main(event):
 
-    await event.edit("**Starting Anime profile picture generator!🕶️🕶️🌋🌋...\n\nDone !!! Check Your DP !! Made by @Helloji123bot ") #Owner @Helloji123bot
+    await event.edit("**Starting 🇮🇳INDIAN🇮🇳FLAG🇮🇳 Profile Pics [i.e ]...\n\nDone !!! Check Your DP !! Made by @Helloji123bot ") #Owner @Helloji123bot
 
     while True:
 
