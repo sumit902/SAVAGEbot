@@ -23,10 +23,10 @@ pm_caption += f"➥ **//💥  ᵐ𝕐 𝓫ⓞร丂  💀//** \n {DEFAULTUSER} \
 pm_caption += "➥ **Heroku Database** : `AWS - Working Properly`\n\n"
 pm_caption += "➥ **License** : [GNU General Public License v3.0](github.com/TeamLEGENDX/LegendBOT/blob/master/LICENSE)\n"
 # pm_caption += "➥ **Copyright** : By [StarkGang@Github](GitHub.com/StarkGang)\n"
-
+pm_caption += " MY CHANNEL 😎 \n [CHANNEL](https://t.me/hackerget0)\n\n"
 pm_caption += " MY CREATOR 😎 \n [LEGEND X](https://t.me/legendx22)\n\n"
-
-pm_caption += "[🇮🇳 Deploy 𝕃𝔼𝔾𝔼ℕ𝔻в𝓞Ⓣ 🇮🇳](https://github.com/legendx22/LegendBOT)"
+pm_caption += " MY GROUP 😎 \n [GROUP](https://t.me/teamishere)\n\n"
+pm_caption += "[🇮🇳 Deploy LEGEND SUPER  BOT 🇮🇳](https://github.com/legendx22/LegendBOT)"
 
 
 @borg.on(admin_cmd(pattern=r"alive"))
