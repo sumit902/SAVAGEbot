@@ -11,9 +11,9 @@ from telethon.tl.types import ChannelParticipantsAdmins
 # uptime = get_readable_time((time.time() - Lastupdate))
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
 PM_IMG = "https://telegra.ph/file/869c33d8840ab471a5737.jpg"
-pm_caption = "➥ **💥𝕃𝔼𝔾𝔼ℕ𝔻💥 IS:** `ONLINE`\n\n"
+pm_caption = "➥ **💥LEGEND BOT💥 IS:** `ONLINE`\n\n"
 pm_caption += "➥ **SYSTEMS STATS**\n"
-pm_caption += "➥ **Telethon Version:** `1.15.0` \n"
+pm_caption += "➥ **Telethon Version:** `1.18.0` \n"
 pm_caption += "➥ **Python:** `3.7.4` \n"
 # pm_caption += f"➥ **Uptime** : `1.0` \n"
 pm_caption += "➥ **Database Status:**  `Functional`\n"
