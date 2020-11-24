@@ -47,14 +47,14 @@ Fortunately there are no Mandatory vars for the UniBorg Support Config.
 - The userbot will not work without setting the mandatory vars.
 
 ## CREDITS
--[LegendX](https://t.me/legendx22) 🔥🔥 Owner of this repo 🔥🔥
+-[LegendX](https://t.me/legendx22) 🔥🔥 Forked from his repo 🔥🔥
 
 
 
 
 
 
-https://telegra.ph/file/247c1e4c518742f5efb60.jpg
+![legend](https://telegra.ph/file/b58e5081b793f627e6c40.jpg)
 
 
 
