@@ -4,6 +4,7 @@
 
 https://telegra.ph/file/7ff453082988a606b39e0.jpg
 
+
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 
@@ -53,7 +54,7 @@ Fortunately there are no Mandatory vars for the UniBorg Support Config.
 
 
 
-![legend](https://telegra.ph/file/b58e5081b793f627e6c40.jpg)
+https://telegra.ph/file/247c1e4c518742f5efb60.jpg
 
 
 
