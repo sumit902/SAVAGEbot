@@ -2,7 +2,7 @@
 
 <p align="center">
 
-![Screenshot] (IMG_20201124_201134_437.jpg)
+![Screenshot] (Screenshot.png)
 
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
