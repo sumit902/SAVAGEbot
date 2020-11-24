@@ -14,7 +14,7 @@
 
 ## Join our Support Channel and Group regrading bug fixes
 
-https://t.me/joinchat/UQyPTRYXSqTizYtZeCXaZA
+[![Chat on Telegram][TEAM SAVAGE bot-telegram]][link-telegram]
 
 ## Installing Heroku 
 
