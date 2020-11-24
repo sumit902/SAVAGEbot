@@ -14,7 +14,7 @@
 
 ## Join our Support Channel and Group regrading bug fixes
 
-[![Chat on Telegram][TEAM SAVAGE bot-telegram]][link-telegram]
+<a href="https://t.me/joinchat/UQyPTRYXSqTizYtZeCXaZA"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
 
 ## Installing Heroku 
 
