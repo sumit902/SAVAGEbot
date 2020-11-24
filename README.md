@@ -1,4 +1,4 @@
-# LegendBOT
+# SAVAGE 🔥 bot
 
 <p align="center">
 <img src="https://telegra.ph/file/b58e5081b793f627e6c40.jpg" alt="LegendBOT">
@@ -9,23 +9,11 @@
 
 ~ ᗷᗴᔕ丅 ᑌᔕᗴᖇ ᗷᗝ丅 丅ᗝ ᗰᗩᑎᗩǤᗴ Ƴᗝᑌᖇ 丅ᗴᒪᗴǤᖇᗩᗰ ᗩᑕᑕᗝᑌᑎ丅 ᗯᎥ丅ᕼ ᒪᗝᗩᗪᔕ ᗝᖴ ᒪᑌ᙭ᑌᖇᎥᗝᑌᔕ ᖴᗴᗩ丅ᑌᖇᗴᔕ ᗩᔕ ᑕᗝᗰᑭᗩᖇᗴᗪ 丅ᗝ ᗩᑎƳ ᗝ丅ᕼᗴᖇ ᗷᗝ丅 *also* 𝕺𝖓𝖊 𝖔𝖋 𝖙𝖍𝖊 𝖒𝖔𝖘𝖙 𝕬𝖉𝖛𝖆𝖓𝖈𝖊𝖉 𝖚𝖘𝖊𝖗𝖇𝖔𝖙 𝖚𝖘𝖎𝖓𝖌 𝕿𝖊𝖑𝖊𝖙𝖍𝖔𝖓 𝕷𝖎𝖇𝖗𝖆𝖗𝖞 𝖋𝖔𝖗 𝖙𝖊𝖑𝖊𝖌𝖗𝖆𝖒 𝖜𝖎𝖙𝖍 300+ 𝖕𝖑𝖚𝖌𝖎𝖓𝖘 𝖆𝖓𝖉 𝕬 𝖑𝖔𝖙 𝖒𝖔𝖗𝖊 𝖘𝖊𝖈𝖚𝖗𝖎𝖙𝖞 𝕱𝖊𝖆𝖙𝖚𝖗𝖊𝖘 .
 
-## By TEAM LEGEND
-▄▄▄▄▄▄▄▄ . ▄▄▄· • ▌ ▄ ·.     ▄▄▌  ▄▄▄ . ▄▄ • ▄▄▄ . ▐ ▄ ·▄▄▄▄  
-•██  ▀▄.▀·▐█ ▀█ ·██ ▐███▪    ██•  ▀▄.▀·▐█ ▀ ▪▀▄.▀·•█▌▐███▪ ██ 
- ▐█.▪▐▀▀▪▄▄█▀▀█ ▐█ ▌▐▌▐█·    ██▪  ▐▀▀▪▄▄█ ▀█▄▐▀▀▪▄▐█▐▐▌▐█· ▐█▌
- ▐█▌·▐█▄▄▌▐█ ▪▐▌██ ██▌▐█▌    ▐█▌▐▌▐█▄▄▌▐█▄▪▐█▐█▄▄▌██▐█▌██. ██ 
- ▀▀▀  ▀▀▀  ▀  ▀ ▀▀  █▪▀▀▀    .▀▀▀  ▀▀▀ ·▀▀▀▀  ▀▀▀ ▀▀ █▪▀▀▀▀▀• 
-
+▄︻デT̷E̷A̷M̷ ̷S̷A̷V̷A̷G̷E̷══━一
 
 ## Join our Support Channel and Group regrading bug fixes
 
-<a href="https://t.me/hackerget0"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-
-## HOW TO DEPLOY 
-
-<a href="https://www.youtube.com/playlist?list=PLX1HgLA9qoirRYh8jrggvFfHbZVvF5W8B"><img src="https://img.shields.io/badge/How%20To-Deploy-red.svg?logo=Youtube"></a>
-<a href="https://youtu.be/woeU5l76kHY"><img src="https://img.shields.io/badge/How%20To-Deploy-red.svg?logo=Youtube"></a>
-
+https://t.me/joinchat/UQyPTRYXSqTizYtZeCXaZA
 
 ## Installing Heroku 
 
