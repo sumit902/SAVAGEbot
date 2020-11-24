@@ -2,7 +2,7 @@
 
 <p align="center">
 
-https://telegra.ph/file/7ff453082988a606b39e0.jpg
+![Screenshot] (1stimg)
 
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
