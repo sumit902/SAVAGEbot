@@ -2,7 +2,7 @@
 
 <p align="center">
 
-![Screenshot] (Screenshot.png)
+![alt text](https://github.com/sameerbot705/SAVAGEbot/blob/master/Screenshot.png)
 
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
