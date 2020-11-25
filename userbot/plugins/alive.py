@@ -10,7 +10,7 @@ from telethon.tl.types import ChannelParticipantsAdmins
 
 # uptime = get_readable_time((time.time() - Lastupdate))
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
-PM_IMG = "![alt text](https://telegra.ph/file/db8ece6f805de23a1a534.jpg)"
+PM_IMG = "https://telegra.ph/file/db8ece6f805de23a1a534.jpg"
 pm_caption = "➥ **💥SAVAGE BOT💥 IS:** `ONLINE`\n\n"
 pm_caption += "➥ **👺🐚  TÊLÊTHØÑ VÊRẞÏØÑ  👊♢:** `1.18.0` \n"
 pm_caption += "➥ **🄿🅈🅃🄷🄾🄽 ♡☞:** `3.7.4` \n"
