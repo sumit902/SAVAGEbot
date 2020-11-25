@@ -15,7 +15,7 @@ pm_caption = "➥ **💥 𝐒𝐀𝐕𝐀𝐆𝐄 𝐁𝐎𝐓 💥 IS:** `ONLIN
 pm_caption += "➥ **👺🐚𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍 𝐕𝐄𝐑𝐒𝐈𝐎𝐍  👊♢:** `1.18.0` \n"
 pm_caption += "➥ ** 𝐏𝐘𝐓𝐇𝐎𝐍 ♡☞:** `3.7.4` \n"
 pm_caption += "➥ **👊  𝐃𝐀𝐓𝐀𝐁𝐀𝐒𝐄 𝐒𝐓𝐀𝐓𝐔𝐒  ♗:**  `Functional`\n"
-pm_caption += f"➥ **// ✎  𝐌𝐘 𝐁𝐎𝐒𝐒  ☞  //** \n {DEFAULTUSER} \n"
+pm_caption += f"➥ **// ✎  𝐌𝐘 𝐁𝐎𝐒𝐒  ☞ //** \n {DEFAULTUSER} \n"
 
 pm_caption += " ♕ 𝐌𝐘 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ♕ 😎 \n [CHANNEL]()\n\n"
 pm_caption += " 𝐌𝐘 𝐂𝐑𝐄𝐀𝐓𝐎𝐑 😎 \n [SAMEER] ( @SAMEER_705 )\n\n"
