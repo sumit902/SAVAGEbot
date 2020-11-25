@@ -1,6 +1,6 @@
 {
-  "name": "LegendBOT",
-  "description": "Userbot created by a @legendx22 and join https://t.me/teamishere for any problems or support",
+  "name": "SAVAGEBOT",
+  "description": "Userbot created by a @SAMEER_705 and join https://t.me/joinchat/UQyPTRYXSqTizYtZeCXaZA for any problems or support",
   "logo": "https://telegra.ph/file/b58e5081b793f627e6c40.jpg",
     "keywords": [
     "telegram",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/legendx22/LegendBOT",
+  "repository": "https://github.com/sameerbot705/SAVAGEbot",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
