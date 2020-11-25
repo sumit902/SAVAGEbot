@@ -24,7 +24,7 @@ pm_caption += "** 𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍 𝐕𝐄𝐑𝐒𝐈𝐎𝐍:
 pm_caption += f"**//👇👇𝐌𝐘 𝐁𝐎𝐒𝐒 ☞ //** \n {DEFAULTUSER} \n"
 
 
-pm_caption += " \n [𝐌𝐘 𝐂𝐑𝐄𝐀𝐓𝐎𝐑](@sameer_705)\n\n"
+pm_caption += "👇👇 \n [𝐌𝐘 𝐂𝐑𝐄𝐀𝐓𝐎𝐑](@sameer_705)\n\n"
 
 
 pm_caption += "👇👇 \n [𝐒𝐎𝐂𝐈𝐀𝐋 𝐆𝐑𝐎𝐔𝐏](https://t.me/friendsforever705)\n\n"
