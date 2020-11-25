@@ -18,7 +18,7 @@ pm_caption += "➥ **👊  𝐃𝐀𝐓𝐀𝐁𝐀𝐒𝐄 𝐒𝐓𝐀𝐓𝐔
 pm_caption += f"➥ **// ✎  𝐌𝐘 𝐁𝐎𝐒𝐒  ☞ //** \n {DEFAULTUSER} \n"
 
 pm_caption += " ♕ 𝐌𝐘 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ♕ 😎 \n [CHANNEL]()\n\n"
-pm_caption += " 𝐌𝐘 𝐂𝐑𝐄𝐀𝐓𝐎𝐑 😎 \n [SAMEER] ( @SAMEER_705 )\n\n"
+pm_caption += " 𝐌𝐘 𝐂𝐑𝐄𝐀𝐓𝐎𝐑 😎 \n [SAMEER] \n\n"
 pm_caption += " 𝐆𝐑𝐎𝐔𝐏 😎 \n [GROUP]( @SAVAGEuserbot )\n"
 pm_caption += "[🇮🇳 𝐃𝐄𝐏𝐋𝐎𝐘 𝐘𝐎𝐔𝐑 𝐒𝐀𝐕𝐀𝐆𝐄 𝐁𝐎𝐓 🇮🇳](https://github.com/legendx22/LegendBOT)"
 
