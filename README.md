@@ -2,7 +2,7 @@
 
 <p align="center">
 
-![alt text](https://github.com/sameerbot705/SAVAGEbot/blob/master/Screenshot.png)
+<img src="https://telegra.ph/file/247c1e4c518742f5efb60.jpg">
 
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
